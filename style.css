@@ -1,0 +1,151 @@
+/* this is a comment "ctrl /" */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+
+/* this is how we target an element and this example is for everything in h1 */
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color:red;
+    font-size: 75px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    color:black;
+    background-color:rgb(228, 220, 220);
+    font-size:25px;
+    font-weight: bold;
+} 
+
+
+.Music{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(219, 16, 67);
+    background-image: url(Spotify_App_Logo.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 200px;
+}
+
+.psn{
+    font-family: 'Dancing Script', cursive;
+    color:blue;
+    background-image: url(PSLogo.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+
+.TV{
+    font-family: 'Dancing Script', cursive;
+    color:red;
+    background-image: url(Streaming\ Services.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#navbar{
+    font-family: 'Dancing Script', cursive;
+    font-weight:bolder;
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    display:flex;
+    justify-content:space-around;
+    text-decoration:overline;
+    /* flex-direction: column; -- -- change items vertically*/ 
+    /* align-items: center; */
+    
+}
+
+.IntroText{
+    background-image: url(StAnton2015.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+/* background-image: url();
+background-repeat: no-repeat;
+background-attachment: fixed; */
+
+#navbar a:hover{
+    color:darkmagenta
+}
+
+.PlayStation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.Spotify{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.Netflix{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.background_image{
+    background-image: url(StAnton2015.jpeg);
+    /* background-color: blue; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.YouTubeVid1{
+    text-align: center; 
+}
+
+.YouTubeVid2{
+    text-align: center; 
+}
+
+.YouTubepage{
+    width: 15%;
+}
+
+.PSN{
+    width: 15%;
+}
+
+.Discord{
+    width: 15%;
+}
+
+.YouTube_name{
+    width: 17%;
+    background-size: 5px;
+}
+
+.PSN_ID{
+    width: 12%;
+}
+
+.Discord_ID{
+    width: 18%;
+}
+
+.contact_images{
+    display:flex;
+    justify-content:space-around;
+}
